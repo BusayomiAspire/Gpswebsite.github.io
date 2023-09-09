@@ -1,0 +1,38 @@
+/* Add your custom CSS styles here */
+
+/* Example: Change background color of the hero section */
+.jumbotron {
+    background-color: #87CEEB;
+}
+
+/* Example: Style the contact form */
+#contact {
+    padding: 50px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button[type="submit"] {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #f8f9fa;
+}
